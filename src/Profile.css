@@ -1,0 +1,90 @@
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.user-details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-details h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.user-details p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.events-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.events-container {
+  background-color: skyblue;
+  width: 48%;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  border: 2px solid black;
+}
+
+.past-events {
+  background-color: lightblue;
+}
+
+.upcoming-events {
+  background-color: lightgreen;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  gap: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.event-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.events-rsvp-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.events-rsvp-button:hover {
+  background-color: #0056b3;
+}

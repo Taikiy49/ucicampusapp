@@ -14,7 +14,7 @@
 .another-chatbot-container {
     background-color: lightblue;
     display: flex;
-    height: 45vh;
+    height: 40vh;
     width: 48vw;
     border-radius: 10px;
     flex-direction: column;

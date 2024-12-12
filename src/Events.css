@@ -1,6 +1,6 @@
 .events-container{
     background-color: skyblue;
-    width: 40vw;  
+    width: 40vw; 
     padding: 10px;
     border-radius: 10px;
     overflow: auto;
@@ -8,26 +8,26 @@
 
 }
 
-.events-list-container{
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: lightblue;
+.events-list-container {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: lightblue;
 }
 
-.event-card{
-    display: flex;
-    background-color: white;
-    padding: 10px;
-    border: 2px solid black;
-    gap: 10px;
-    border-radius: 10px;
-    margin-bottom: 5px;
+.event-card {
+  display: flex;
+  padding: 10px;
+  border: 2px solid black;
+  gap: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: blue;
 }
 
-.events-rsvp-button{
-    background-color: lightcyan;
-    height: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+.events-rsvp-button {
+  background-color: lightcyan;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
